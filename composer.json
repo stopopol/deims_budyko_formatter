@@ -1,0 +1,6 @@
+{
+    "name": "stopopol/deims_budyko_formatter",
+    "description": "Field Formatter for printing the budyko curves using the deims.id field",
+    "type": "drupal-module",
+    "homepage": "https://github.com/stopopol/deims_budyko_formatter"
+}
