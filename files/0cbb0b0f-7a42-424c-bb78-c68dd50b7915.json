@@ -1,0 +1,135 @@
+{
+    "InSitu": [],
+    "ERA5": [
+        {
+            "P": 1.6044724804948836,
+            "ET": 0.278410202609825,
+            "PET": 0.7735362542396039,
+            "Aridity Index": 0.4821125096524026,
+            "Evaporative Index": 0.17352133239702072,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.3269352913464671,
+            "ET": 0.31563754329865223,
+            "PET": 0.8672487181598435,
+            "Aridity Index": 0.6535727279359864,
+            "Evaporative Index": 0.23786958215450632,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 2.1605155514629684,
+            "ET": 0.2914445522789819,
+            "PET": 0.7703468015136619,
+            "Aridity Index": 0.35655693428914703,
+            "Evaporative Index": 0.1348958363579626,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.9147252696430868,
+            "ET": 0.25139812434869674,
+            "PET": 0.7634405196580415,
+            "Aridity Index": 0.398720658134078,
+            "Evaporative Index": 0.13129723012197905,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.42957109726504,
+            "ET": 0.26100966718226626,
+            "PET": 0.7944258851166944,
+            "Aridity Index": 0.5557092519823162,
+            "Evaporative Index": 0.1825790040674525,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.5859762170193528,
+            "ET": 0.25416463594691524,
+            "PET": 0.729694294528891,
+            "Aridity Index": 0.46009157432402215,
+            "Evaporative Index": 0.16025753300675996,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.2281895452970806,
+            "ET": 0.3645068884980206,
+            "PET": 0.9816541496613086,
+            "Aridity Index": 0.7992692605308419,
+            "Evaporative Index": 0.29678390431979446,
+            "Climate regions": "H: Humid"
+        },
+        {
+            "P": 1.60719792178984,
+            "ET": 0.288081659166194,
+            "PET": 0.8114780889825779,
+            "Aridity Index": 0.5294332738355421,
+            "Evaporative Index": 0.1881720603464965,
+            "Climate regions": "CH: Cold Humid"
+        }
+    ],
+    "GLEAM": [
+        {
+            "P": 1.6044724804948836,
+            "ET": 0.30296343994140623,
+            "PET": 0.3125224304199219,
+            "Aridity Index": 0.19478204470264734,
+            "Evaporative Index": 0.1888243292574019,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.3269352913464671,
+            "ET": 0.32525860595703127,
+            "PET": 0.33628359985351564,
+            "Aridity Index": 0.25342878589978723,
+            "Evaporative Index": 0.2451201713287654,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 2.1605155514629684,
+            "ET": 0.3243057861328125,
+            "PET": 0.3332167053222656,
+            "Aridity Index": 0.15423018135492325,
+            "Evaporative Index": 0.15010574023094284,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.9147252696430868,
+            "ET": 0.29753402709960936,
+            "PET": 0.3038105163574219,
+            "Aridity Index": 0.15867055246732786,
+            "Evaporative Index": 0.15539254211392478,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.42957109726504,
+            "ET": 0.3240885009765625,
+            "PET": 0.3343536376953125,
+            "Aridity Index": 0.23388388191043843,
+            "Evaporative Index": 0.22670331094171323,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.5859762170193528,
+            "ET": 0.29158404541015626,
+            "PET": 0.29715533447265624,
+            "Aridity Index": 0.18736430678079344,
+            "Evaporative Index": 0.1838514615043551,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.2281895452970806,
+            "ET": 0.3005991516113281,
+            "PET": 0.30841061401367187,
+            "Aridity Index": 0.251109948944462,
+            "Evaporative Index": 0.24474980491599746,
+            "Climate regions": "CH: Cold Humid"
+        },
+        {
+            "P": 1.60719792178984,
+            "ET": 0.30947622244698664,
+            "PET": 0.31796469116210935,
+            "Aridity Index": 0.20478138600862564,
+            "Evaporative Index": 0.19924962289901438,
+            "Climate regions": "CH: Cold Humid"
+        }
+    ]
+}
