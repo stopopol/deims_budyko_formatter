@@ -44,19 +44,22 @@ class DeimsBudykoFormatter extends FormatterBase {
 
     foreach ($items as $delta => $item) {
       
-      $budyko_uuid_list = json_decode(file_get_contents(__DIR__ .  '/budyko_uuid_list.json'), true);
-      $record_uuid = $item->value;
+	  $record_uuid = $item->value;
+	  $module_path = \Drupal::service('extension.list.module')->getPath('deims_budyko_formatter');
+	  $json_path = DRUPAL_ROOT . '/' . $module_path . "/files/$record_uuid.json";
 
-      if (array_key_exists($record_uuid, $budyko_uuid_list)) {
+	  if (file_exists($json_path)) {  
+		// fetch image file
+		$module_path = \Drupal::service('extension.list.module')->getPath('deims_budyko_formatter');
+		$file_generator = \Drupal::service('file_url_generator');
+		$image_path = $file_generator->generateAbsoluteString("$module_path/files/$record_uuid.png");
+      
         $table_string = '<b>There are calculated Budyko curves available for this site:</b><br>';
-        $table_string .= '<table class="table">';    
-
-
-        $table_string .= '</table><br>';
-        $table_string .= '<p>You can also <a target="_blank" href="';
-        $table_string .= $budyko_uuid_list[$record_uuid];
-		$table_string .= '">download the Budyko curves dataset for this site</a> from the EUDAT B2SHARE data store.</p>';
-
+        $table_string .= '<ul>';
+        $table_string .= "<li><a href='$image_path' target='_blank'>View a chart of all calculated Budyko curves</a></li>";
+        $table_string .= '<li>You can also <a target="_blank" href="https://doi.org/10.5281/zenodo.17036642">';
+		$table_string .= 'download the entire Budyko curves dataset for this site</a> from Zenodo.';
+		$table_string .= '</ul>';
       }
       else {
         // need to return empty array for Drupal to realise the field is empty without throwing an error
