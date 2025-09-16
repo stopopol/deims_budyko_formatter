@@ -54,7 +54,7 @@ class DeimsBudykoFormatter extends FormatterBase {
 		$file_generator = \Drupal::service('file_url_generator');
 		$image_path = $file_generator->generateAbsoluteString("$module_path/files/$record_uuid.png");
       
-        $table_string = 'There are calculated Budyko curves available for this site:<br>';
+        $table_string = 'Budyko curves have been calculated for this site (2025):<br>';
         $table_string .= '<ul>';
         $table_string .= "<li><a href='$image_path' target='_blank'>View a chart of the calculated Budyko curves</a> [.png]</li>";
         $table_string .= '<li><a target="_blank" href="https://doi.org/10.5281/zenodo.17036642">';
@@ -77,6 +77,7 @@ class DeimsBudykoFormatter extends FormatterBase {
   }
 	
 }
+
 
 
 
