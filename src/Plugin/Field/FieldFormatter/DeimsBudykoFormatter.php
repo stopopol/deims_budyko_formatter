@@ -57,8 +57,8 @@ class DeimsBudykoFormatter extends FormatterBase {
         $table_string = 'There are calculated Budyko curves available for this site:<br>';
         $table_string .= '<ul>';
         $table_string .= "<li><a href='$image_path' target='_blank'>View a chart of the calculated Budyko curves</a> [.png]</li>";
-        $table_string .= '<li>You can also <a target="_blank" href="https://doi.org/10.5281/zenodo.17036642">';
-		$table_string .= 'download the entire Budyko curves dataset</a> from Zenodo.';
+        $table_string .= '<li><a target="_blank" href="https://doi.org/10.5281/zenodo.17036642">';
+		$table_string .= 'Download the entire Budyko curves dataset</a> from Zenodo.';
 		$table_string .= '</ul>';
       }
       else {
@@ -77,5 +77,6 @@ class DeimsBudykoFormatter extends FormatterBase {
   }
 	
 }
+
 
 
