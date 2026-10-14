@@ -1,6 +1,6 @@
-name: DEIMS-SDR Budyko Formatter
+name: DEIMS Budyko Formatter
 description: Provides a formatter for providing the links to the Budyko data
-package: DEIMS-SDR
+package: DEIMS
 type: module
 core_version_requirement: ^10 || ^11
 dependencies:
